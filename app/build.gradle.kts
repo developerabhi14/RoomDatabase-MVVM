@@ -66,4 +66,7 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0")
 //    kapt "androidx.lifecycle:lifecycle-compiler:$lifecycle_version"
 
+    // Kodein
+    implementation(libs.kodein.di.generic.jvm)
+    implementation(libs.kodein.di.framework.android.x)
 }
